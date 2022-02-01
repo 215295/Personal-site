@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text and font</title>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+<!-- bootstrap cdn -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<style>
+  .nav-item:hover{
+    text-decoration: underline;
+  transform: scale(1.1);
+  }
+
+
+  
+</style>
+
+</head>
+<body>
+   <div class="container">
+    <header >
+   <nav class="navbar navbar-expand-sm bg-primary navbar-dark " >
+     <!-- Brand -->
+  <a class="navbar-brand" href="#">
+    <img class="rounded-circle bg-warning " src="im.jpg" alt="logo" style="width: 70px; color: black;">
+  </a>
+
+      <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+    
+
+    
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto text-capitalize ">
+      
+        <li class="nav-item active"> <a class="nav-link" href="#"> home </a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#"> tutorial </a> </li>
+         <li class="nav-item"> <a class="nav-link" href="#">about me </a> </li>
+         <li class="nav-item"> <a class="nav-link" href="#"> contact </a> </li>
+       </ul>
+    </div>
+    
+
+   </nav>
+           
+      </header>
+       
+      <main>
+          <div class="service-section bg-light pt-3 ">
+            <div class="title  text-center mb-3 "> 
+                 <h3 class="font-weight-bolder"> Services</h3>
+                </div>
+
+              <div class="row text-left text-md-center">
+                  <div class="col-lg-3 col-md-6">
+                    <i class="p-2 fa-2x rounded-circle mb-3 far fa-hands-helping bg-primary"></i>
+                      <h5 class="text-uppercase  " >Web designing</h5>
+                     
+                      <p class=" small text-muted"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, repudiandae, qui ex quis blanditiis velit accusantium fugiat minima optio vel voluptas excepturi natus amet est autem unde ipsum, consequatur soluta!</p>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6">
+                    <i class="p-2 fa-2x rounded-circle mb-3 far fa-hands-helping bg-primary"></i>
+                      <h5 class="text-uppercase " >Web developing</h5>
+                     
+                      <p class=" small text-muted"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, repudiandae, qui ex quis blanditiis velit accusantium fugiat minima optio vel voluptas excepturi natus amet est autem unde ipsum, consequatur soluta!</p>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6">
+                    <i class="p-2 fa-2x rounded-circle mb-3 far fa-hands-helping bg-primary"></i>
+                      <h5 class="text-uppercase " >seo</h5>
+                     
+                      <p class=" small text-muted"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, repudiandae, qui ex quis blanditiis velit accusantium fugiat minima optio vel voluptas excepturi natus amet est autem unde ipsum, consequatur soluta!</p>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6">
+                    <i class="p-2 fa-2x rounded-circle mb-3 far fa-hands-helping bg-primary"></i>
+                      <h5 class="text-uppercase " >api</h5>
+                     
+                      <p class=" small text-muted"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, repudiandae, qui ex quis blanditiis velit accusantium fugiat minima optio vel voluptas excepturi natus amet est autem unde ipsum, consequatur soluta!</p>
+                  </div>
+              </div>
+          </div>
+
+          <!-- about me section -->
+    <div class="about-section">
+      <div class="jumbotron pt-2">
+        <div class="title text-capitalize text-center">
+          <h1> about me</h1>
+        </div>
+
+       <div class="row">
+        <div class="col-lg-4 text-center">
+     
+       
+          <img class=" rounded-circle" src="  data:image/jpeg;base64,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 " alt="">
+        </div>
+
+        <div class="col-lg-8 ">
+          <p  class=" "> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo aspernatur voluptatibus quidem perspiciatis aliquam odit autem, cumque necessitatibus doloremque mollitia quisquam, corrupti delectus nemo sit ipsum obcaecati doloribus? Blanditiis, modi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit in itaque, consectetur placeat consequuntur ipsa tenetur vitae sapiente praesentium commodi, cumque recusandae veniam aut quas odio nostrum autem non blanditiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi explicabo aperiam facere vel perspiciatis voluptates? Dicta dignissimos, ex dolores dolorum earum error quibusdam atque eius veritatis non consectetur optio dolorem.</p>
+           
+       <a class="d-block pb-3 " href="#demo" data-toggle="collapse">learn more</a>
+<div id="demo" class=" collapse">
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque at reiciendis excepturi quisquam tempora dicta? Ipsa harum atque fuga et exercitationem quidem veritatis sint possimus repudiandae deserunt? Culpa porro asperiores accusamus laudantium, iusto soluta. Velit omnis necessitatibus debitis sint labore? Deleniti, at tempora repellat dolores in excepturi quam officia esse.</p>
+         
+       
+      </div>
+       <button class="btn btn-outline-primary  mb-3 btn-lg"> CD Download</button>
+          <button class="btn btn-outline-primary  mb-3 btn-lg"> CD Download</button>
+          
+          <a href=" #" class="btn btn-outline-primary  mb-3 d-block"> visit my youtube channel  </a>
+          
+
+          <div class="alert alert-success alert-dismisable">
+         <button class="close" data-dismiss="alert"> &times;</button>
+         Have you visit my youtube chanel?<a href="#">visit here</a>
+       </div>
+
+       <div class="alert alert-warning alert-dismisable">
+        <button class="close" data-dismiss="alert"> &times;</button>
+        Have you visit my Facebook page?<a href="#">visit here</a>
+      </div>
+       
+        </div>
+
+
+       </div>
+
+
+      </div>
+    </div>
+
+<!-- 
+    customer services -->
+            <div class="customer-review bg-light pt-3 text-center">
+              
+
+      
+                <div class="title  text-center mb-3 "> 
+                     <h3 class="font-weight-bolder text-capitalize"> customer review</h3>
+                    </div>
+
+                    <div class="row">
+                   <div class="col-lg-4">
+                     <blockquote class="blockquote">
+                       <i class=" fa-3x fas fa-user-circle"> </i>
+                       <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fuga doloremque quibusdam ipsum ratione nostrum, accusamus tenetur pariatur, amet consequuntur libero rem. Commodi consequuntur corrupti at est, quaerat impedit dolorem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis dolores vero voluptatum, autem saepe, incidunt dolorem magnam labore corporis natus nderit quaerat! <abbr title="bootstrap4" > bs4</abbr></p>
+                    <footer class="blockquote-footer">
+                      Anisul Islam in <cite> Youtube </cite>
+                    </footer>
+                    
+                      </blockquote>
+                   </div>
+
+                   <div class="col-lg-4">
+                    <blockquote class="blockquote">
+                      <i class=" fa-3x fas fa-user-circle"> </i>
+                      <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fuga doloremque quibusdam ipsum ratione nostrum, accusamus tenetur pariatur, amet consequuntur libero rem. Commodi consequuntur corrupti at est, quaerat impedit dolorem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis dolores vero voluptatum, autem saepe, incidunt dolorem magnam labore corporis natus nderit quaerat! <abbr title="bootstrap4" > bs4</abbr></p>
+                   <footer class="blockquote-footer">
+                     Anisul Islam in <cite> Youtube </cite>
+                   </footer>
+                   
+                     </blockquote>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <blockquote class="blockquote">
+                      <i class=" fa-3x fas fa-user-circle"> </i>
+                      <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fuga doloremque quibusdam ipsum ratione nostrum, accusamus tenetur pariatur, amet consequuntur libero rem. Commodi consequuntur corrupti at est, quaerat impedit dolorem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis dolores vero voluptatum, autem saepe, incidunt dolorem magnam labore corporis natus nderit quaerat! <abbr title="bootstrap4" > bs4</abbr></p>
+                   <footer class="blockquote-footer">
+                     Anisul Islam in <cite> Youtube </cite>
+                   </footer>
+                   
+                     </blockquote>
+                  </div>
+<!-- toggleable dynamic site start here -->
+<div class="other-section">
+<ul class="nav nav-pills">
+  <li class="nav-item active"><a data-toggle="pill" class="  nav-link" href="#edu">education</a></li>
+  <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#skill">skill</a></li>
+  <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#hobby">hobby</a></li>
+</ul>
+
+  <div class="tab-content">
+    <div id="edu" class="tab-pane fade"> <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur commodi nisi accusantium rerum nihil dolore similique quaerat obcaecati, dolorum mollitia? Illum fugiat vel expedita libero, dolorem enim quo nam aliquid, sed nulla velit. Aperiam a aliquam excepturi, voluptatem, veritatis, inventore distinctio illum alias dignissimos expedita quibusdam iure rerum. Quaerat, neque.</p></div>
+    <div id="skill" class="tab-pane fade"> <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur commodi nisi accusantium rerum nihil dolore similique quaerat obcaecati, dolorum mollitia? Illum fugiat vel expedita libero, dolorem enim quo nam aliquid, sed nulla velit. Aperiam a aliquam excepturi, voluptatem, veritatis, inventore distinctio illum alias dignissimos expedita quibusdam iure rerum. Quaerat, neque.</p></div>
+
+<div id="hobby" class="tab-pane active"> <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur commodi nisi accusantium rerum nihil dolore similique quaerat obcaecati, dolorum mollitia? Illum fugiat vel expedita libero, dolorem enim quo nam aliquid, sed nulla velit. Aperiam a aliquam excepturi, voluptatem, veritatis, inventore distinctio illum alias dignissimos expedita quibusdam iure rerum. Quaerat, neque.</p></div>
+</div>
+</div>
+
+<!-- toggleable dynamic site end here -->
+                  <!-- student list  start here -->
+              
+
+                       
+                    </div>
+
+            </div>
+
+            <div class="student-list">
+              <ul class="list-group">
+              <li class="list-group-item bg-primary text-white "> anisul islam</li>
+              <li class="list-group-item bg-warning text-white "> anisul islam</li>
+              <li class="list-group-item bg-success text-white "> anisul islam</li>
+              <a href="#" class="list-group-item bg-danger text-white "> sumon</a>
+
+              </ul>
+
+               </div>
+      </main>
+<footer class="bg-dark">
+
+
+<ul class="pagination py-3 justify-content-center">
+   <li class="page-item"> <a class="page-link" href=" #">1</a></li>
+   <li class="page-item"> <a class="page-link" href=" #">2</a></li>
+   <li class="page-item"> <a class="page-link" href=" #">3</a></li>
+   <li class="page-item"> <a class="page-link" href=" #">4</a></li>
+   <li class="page-item"> <a class="page-link" href=" #">5</a></li>
+</ul>
+</footer>
+   </div>
+
+
+      <!-- bootstrap js, jquery,popper -->
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
